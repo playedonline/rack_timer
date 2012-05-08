@@ -1,5 +1,5 @@
 module ActionDispatch
-  class MiddlewareStack < Array
+  class MiddlewareStack
 
     # this class will wrap around each Rack-based middleware and take timing snapshots of how long
     # each middleware takes to execute
